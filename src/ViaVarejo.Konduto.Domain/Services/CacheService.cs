@@ -14,7 +14,7 @@ namespace ViaVarejo.Konduto.Domain.Services {
 
             //--- obter da memória
             var value = _memoryCache.Get<string> (key);
-            if (!string.IsNullOrEmpty (key)) {
+            if (!string.IsNullOrEmpty (value)) {
                 return value;
             }
 

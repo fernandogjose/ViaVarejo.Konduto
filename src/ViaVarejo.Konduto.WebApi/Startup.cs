@@ -5,8 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using ViaVarejo.Konduto.DI;
 using ViaVarejo.Konduto.WebApi.Middlewares;
 
-namespace ViaVarejo.Konduto.WebApi
-{
+namespace ViaVarejo.Konduto.WebApi {
     public class Startup {
         public Startup (IConfiguration configuration) {
             Configuration = configuration;
@@ -16,7 +15,7 @@ namespace ViaVarejo.Konduto.WebApi
 
         //--- método chamado em tempo de execução. Usar para adicionar servicos ao container
         public void ConfigureServices (IServiceCollection services) {
-            Bootstrap.Configure (services);
+            Bootstrap.Configure (services, Configuration["Data:DefaultConnection:ConnectionString"]);
             services.AddCors ();
             services.AddMvc ();
         }

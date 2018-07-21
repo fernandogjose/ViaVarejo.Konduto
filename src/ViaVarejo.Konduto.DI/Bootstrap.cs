@@ -7,7 +7,7 @@ using ViaVarejo.Konduto.Proxy;
 
 namespace ViaVarejo.Konduto.DI {
     public class Bootstrap {
-        public static void Configure (IServiceCollection services) {
+        public static void Configure (IServiceCollection services, string connectionString) {
 
             //--- Services
             services.AddSingleton<KondutoService> ();
@@ -17,7 +17,7 @@ namespace ViaVarejo.Konduto.DI {
             services.AddSingleton<IKondutoProxy, KondutoProxy> ();
 
             //--- Sql Repositories
-            services.AddSingleton<IConfigurationSqlRepository, ConfigurationSqlRepository> ();
+            services.AddSingleton<IConfigurationSqlRepository> (p => new ConfigurationSqlRepository (connectionString));
         }
     }
 }

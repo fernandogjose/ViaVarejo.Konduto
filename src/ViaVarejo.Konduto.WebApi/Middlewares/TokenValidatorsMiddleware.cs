@@ -1,17 +1,22 @@
 using System;
 using System.Threading.Tasks;
-using ViaVarejo.Konduto.Domain.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Primitives;
+using ViaVarejo.Konduto.Domain.Models;
 
 namespace ViaVarejo.Konduto.WebApi.Middlewares {
 
     public class TokenValidatorsMiddleware {
+        
         private readonly RequestDelegate _next;
+        
+        private readonly IConfiguration _configuration;
 
-        public TokenValidatorsMiddleware (RequestDelegate next) {
+        public TokenValidatorsMiddleware (RequestDelegate next, IConfiguration configuration) {
             _next = next;
+            _configuration = configuration;
         }
 
         public async Task Invoke (HttpContext context) {
@@ -23,7 +28,13 @@ namespace ViaVarejo.Konduto.WebApi.Middlewares {
                 return;
             }
 
-            //--- Fernando - Criar uma validação do token, verificar se ele é válido
+            //--- Fernando - Criar uma validação do token mais forte
+            string token = _configuration["Data:Token"];
+            if(tokenRequest[0] != token){
+                context.Response.StatusCode = 400;
+                await context.Response.WriteAsync ("token inválido");
+                return;
+            }
 
             await _next.Invoke (context);
         }
