@@ -11,3 +11,4 @@ C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstand
 C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.csproj.CopyComplete
 C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.dll
 C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.pdb
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.csprojResolveAssemblyReference.cache

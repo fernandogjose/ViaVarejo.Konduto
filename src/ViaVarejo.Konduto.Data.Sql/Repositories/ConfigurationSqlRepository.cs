@@ -6,7 +6,7 @@ namespace ViaVarejo.Konduto.Data.SqlRepositories {
 
         public string GetByKey (string key) {
             return "";
-        }
 
+        }
     }
 }
