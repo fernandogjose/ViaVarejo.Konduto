@@ -1,8 +1,0 @@
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\bin\Debug\netstandard2.0\ViaVarejo.Konduto.DI.deps.json
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\bin\Debug\netstandard2.0\ViaVarejo.Konduto.DI.dll
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\bin\Debug\netstandard2.0\ViaVarejo.Konduto.DI.pdb
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\obj\Debug\netstandard2.0\ViaVarejo.Konduto.DI.csproj.CoreCompileInputs.cache
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\obj\Debug\netstandard2.0\ViaVarejo.Konduto.DI.AssemblyInfoInputs.cache
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\obj\Debug\netstandard2.0\ViaVarejo.Konduto.DI.AssemblyInfo.cs
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\obj\Debug\netstandard2.0\ViaVarejo.Konduto.DI.dll
-c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.DI\obj\Debug\netstandard2.0\ViaVarejo.Konduto.DI.pdb
