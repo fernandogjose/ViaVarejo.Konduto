@@ -29,8 +29,8 @@ namespace ViaVarejo.Konduto.WebApi.Middlewares {
         }
     }
 
-    public static class UserKeyValidatorsExtension {
-        public static IApplicationBuilder ApplyUserKeyValidation (this IApplicationBuilder app) {
+    public static class TokenValidatorsExtension {
+        public static IApplicationBuilder TokenKeyValidation (this IApplicationBuilder app) {
             app.UseMiddleware<TokenValidatorsMiddleware> ();
             return app;
         }

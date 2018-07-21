@@ -36,7 +36,7 @@ namespace ViaVarejo.Konduto.WebApi
             );
 
             app.UseMiddleware (typeof (ErrorMiddleware));
-            app.ApplyUserKeyValidation ();
+            app.TokenKeyValidation ();
             app.UseMvc ();
         }
     }
