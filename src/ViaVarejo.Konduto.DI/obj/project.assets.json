@@ -456,11 +456,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.DI\\ViaVarejo.Konduto.DI.csproj",
+      "projectUniqueName": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.DI\\ViaVarejo.Konduto.DI.csproj",
       "projectName": "ViaVarejo.Konduto.DI",
-      "projectPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.DI\\ViaVarejo.Konduto.DI.csproj",
+      "projectPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.DI\\ViaVarejo.Konduto.DI.csproj",
       "packagesPath": "C:\\Users\\Fernando José\\.nuget\\packages\\",
-      "outputPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.DI\\obj\\",
+      "outputPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.DI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -481,14 +481,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj": {
-              "projectPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj"
+            "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj": {
+              "projectPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj"
             },
-            "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj": {
-              "projectPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj"
+            "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj": {
+              "projectPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj"
             },
-            "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Proxy\\ViaVarejo.Konduto.Proxy.csproj": {
-              "projectPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Proxy\\ViaVarejo.Konduto.Proxy.csproj"
+            "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Proxy\\ViaVarejo.Konduto.Proxy.csproj": {
+              "projectPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Proxy\\ViaVarejo.Konduto.Proxy.csproj"
             }
           }
         }

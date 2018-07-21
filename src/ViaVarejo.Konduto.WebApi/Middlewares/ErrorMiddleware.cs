@@ -28,7 +28,7 @@ namespace ViaVarejo.Konduto.WebApi.Middlewares {
 
             if (exception is ArgumentException) code = HttpStatusCode.BadRequest;
             else if (exception is AuthException) code = HttpStatusCode.Unauthorized;
-            else if (exception is KondutoException) code = ((KondutoException) exception).HttpStatusCode;
+            else if (exception is CustomException) code = ((CustomException) exception).HttpStatusCode;
 
             //--- Fernando - Logar a Exception no MongoDB
 

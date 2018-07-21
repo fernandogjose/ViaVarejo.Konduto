@@ -31,7 +31,7 @@ namespace ViaVarejo.Konduto.Domain.Services {
 
             //--- verifica se pode executar
             if (string.IsNullOrEmpty (canSendDataToKonduto) || canSendDataToKonduto.ToLower () != "true") {
-                throw new KondutoException("A chave para executar o konduto esta desligada", HttpStatusCode.Unauthorized);
+                throw new CustomException("A chave para executar o konduto esta desligada", HttpStatusCode.Unauthorized);
             }
         }
 

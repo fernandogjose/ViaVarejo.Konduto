@@ -369,11 +369,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj",
+      "projectUniqueName": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj",
       "projectName": "ViaVarejo.Konduto.Domain",
-      "projectPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj",
+      "projectPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj",
       "packagesPath": "C:\\Users\\Fernando José\\.nuget\\packages\\",
-      "outputPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\obj\\",
+      "outputPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

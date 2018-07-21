@@ -387,11 +387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj",
+      "projectUniqueName": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj",
       "projectName": "ViaVarejo.Konduto.Data.Sql",
-      "projectPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj",
+      "projectPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\ViaVarejo.Konduto.Data.Sql.csproj",
       "packagesPath": "C:\\Users\\Fernando José\\.nuget\\packages\\",
-      "outputPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\obj\\",
+      "outputPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Data.Sql\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -412,8 +412,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj": {
-              "projectPath": "c:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj"
+            "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj": {
+              "projectPath": "C:\\MeusProjetos\\ViaVarejo.Konduto\\src\\ViaVarejo.Konduto.Domain\\ViaVarejo.Konduto.Domain.csproj"
             }
           }
         }
