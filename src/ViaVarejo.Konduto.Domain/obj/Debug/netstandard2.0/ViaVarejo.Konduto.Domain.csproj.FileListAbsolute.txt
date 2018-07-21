@@ -1,0 +1,9 @@
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.deps.json
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.dll
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.pdb
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.csproj.CoreCompileInputs.cache
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.AssemblyInfoInputs.cache
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.AssemblyInfo.cs
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.dll
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.pdb
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Domain\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.csprojResolveAssemblyReference.cache

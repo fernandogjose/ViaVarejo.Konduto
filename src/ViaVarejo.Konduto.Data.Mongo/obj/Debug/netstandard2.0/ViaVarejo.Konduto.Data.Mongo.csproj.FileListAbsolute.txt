@@ -1,0 +1,8 @@
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.deps.json
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.dll
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.pdb
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.csproj.CoreCompileInputs.cache
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.AssemblyInfoInputs.cache
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.AssemblyInfo.cs
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.dll
+c:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Data.Mongo\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Mongo.pdb

@@ -1,0 +1,13 @@
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.csproj.CoreCompileInputs.cache
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.AssemblyInfoInputs.cache
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.AssemblyInfo.cs
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.deps.json
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.dll
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.pdb
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Sql.dll
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.dll
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Domain.pdb
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\bin\Debug\netstandard2.0\ViaVarejo.Konduto.Data.Sql.pdb
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.csproj.CopyComplete
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.dll
+C:\MeusProjetos\ViaVarejo.Konduto\src\ViaVarejo.Konduto.Proxy\obj\Debug\netstandard2.0\ViaVarejo.Konduto.Proxy.pdb
