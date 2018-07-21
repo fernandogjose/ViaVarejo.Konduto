@@ -2,7 +2,7 @@ using ViaVarejo.Konduto.Domain.Interfaces.SqlRepositories;
 
 namespace ViaVarejo.Konduto.Data.SqlRepositories {
 
-    public class ConfigurationSqlRepository : IConfigurationSqlRepository {
+    public class ConfigurationSqlRepository : BaseSqlRepository, IConfigurationSqlRepository {
 
         private readonly string _connectionString;
 
@@ -11,7 +11,9 @@ namespace ViaVarejo.Konduto.Data.SqlRepositories {
         }
 
         public string GetByKey (string key) {
-            return _connectionString;
+
+            //--- Fernando - Criar o método para buscar no banco de dados sql
+            return GetDbValue (key).ToString ();
         }
     }
 }
