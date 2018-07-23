@@ -15,7 +15,12 @@ namespace ViaVarejo.Konduto.WebApi {
 
         //--- método chamado em tempo de execução. Usar para adicionar servicos ao container
         public void ConfigureServices (IServiceCollection services) {
-            Bootstrap.Configure (services, Configuration["Data:DefaultConnection:ConnectionString"]);
+
+            string connectionStringSql = Configuration["DataSql:DefaultConnection:ConnectionString"];
+            string connectionStringMongo = Configuration["DataMongo:DefaultConnection:ConnectionString"];
+            string databaseMongo = Configuration["DataMongo:DefaultConnection:Database"];
+
+            Bootstrap.Configure (services, connectionStringSql, connectionStringMongo, databaseMongo);
             services.AddCors ();
             services.AddMvc ();
         }

@@ -29,7 +29,7 @@ namespace ViaVarejo.Konduto.WebApi.Middlewares {
             }
 
             //--- Fernando - Criar uma validação do token mais forte
-            string token = _configuration["Data:Token"];
+            string token = _configuration["Token"];
             if(tokenRequest[0] != token){
                 context.Response.StatusCode = 400;
                 await context.Response.WriteAsync ("token inválido");

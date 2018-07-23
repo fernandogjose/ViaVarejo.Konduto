@@ -9,8 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../ViaVarejo.Konduto.Domain/ViaVarejo.Konduto.Domain.csproj" />
+    <ProjectReference Include="../ViaVarejo.Konduto.Data.Mongo/ViaVarejo.Konduto.Data.Mongo.csproj" />
     <ProjectReference Include="../ViaVarejo.Konduto.Data.Sql/ViaVarejo.Konduto.Data.Sql.csproj" />
+    <ProjectReference Include="../ViaVarejo.Konduto.Domain/ViaVarejo.Konduto.Domain.csproj" />
     <ProjectReference Include="../ViaVarejo.Konduto.Proxy/ViaVarejo.Konduto.Proxy.csproj" />
   </ItemGroup>
 
