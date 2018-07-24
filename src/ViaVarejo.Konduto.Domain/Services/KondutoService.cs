@@ -24,7 +24,7 @@ namespace ViaVarejo.Konduto.Domain.Services {
             //--- obtem a chave do cache de memoria ou mongo
             string canSendDataToKonduto = _cacheService.GetByKey ("PodeExecutarKonduto");
 
-            //--- caso não esteja no mongo busca no banco de dados
+            //--- caso não esteja em cache de memória ou mongo buscar no banco de dados
             if (string.IsNullOrEmpty (canSendDataToKonduto)) {
                 canSendDataToKonduto = _configurationSqlRepository.GetByKey ("PodeExecutarKonduto");
             }

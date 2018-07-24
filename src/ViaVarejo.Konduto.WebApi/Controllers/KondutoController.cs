@@ -18,7 +18,8 @@ namespace ViaVarejo.Konduto.WebApi.Controllers {
         }
 
         [HttpPost]
-        public void Post ([FromBody] KondutoData kondutoData) {
+        [Route("send-data")]
+        public void SendData ([FromBody] KondutoData kondutoData) {
             _kondutoService.SendData(kondutoData);
         }
     }
