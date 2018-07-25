@@ -1,7 +1,9 @@
+using ViaVarejo.Konduto.Domain.Models;
+
 namespace ViaVarejo.Konduto.Domain.Interfaces.SqlRepositories {
 
-    public interface IConfigurationSqlRepository {
+    public interface IConfigurationDataSqlRepository {
 
-        string GetByKey (string key);
+        ConfigurationData GetByKey (string key);
     }
 }
