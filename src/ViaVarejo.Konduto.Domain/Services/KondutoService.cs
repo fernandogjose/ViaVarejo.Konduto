@@ -23,7 +23,7 @@ namespace ViaVarejo.Konduto.Domain.Services {
             ConfigurationData configurationData = _configurationDataCache.GetByKey ("PodeExecutarKonduto");
 
             //--- verifica se pode executar
-            if (configurationData != null || configurationData.Valor.ToLower () != "true") {
+            if (configurationData == null || configurationData.Valor.ToLower () != "true") {
                 throw new CustomException ("A chave para executar o konduto esta desligada", HttpStatusCode.Unauthorized);
             }
         }

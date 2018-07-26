@@ -45,18 +45,14 @@ namespace ViaVarejo.Konduto.Domain.Caches {
         }
 
         private string ValidateExpirationDate (string valueCached, int addMinutes) {
-            JsonSerializerSettings microsoftDateFormatSettings = new JsonSerializerSettings {
-                DateFormatHandling = DateFormatHandling.MicrosoftDateFormat
-            };
-
-            ConfigurationData configurationData = JsonConvert.DeserializeObject<ConfigurationData> (valueCached, microsoftDateFormatSettings);
+            ConfigurationData configurationData = JsonConvert.DeserializeObject<ConfigurationData> (valueCached);
             return configurationData.DataMudanca.AddMinutes (addMinutes) < DateTime.Now ? "" : valueCached;
         }
 
         private void AddCache (ConfigurationData configurationData, string key) {
             string valueCached = JsonConvert.SerializeObject (configurationData);
             _memoryCache.Set (key, valueCached);
-            // _configurationDataMongoRepository.Add(valueCached);
+            _configurationDataMongoRepository.Add (configurationData);
         }
 
         public ConfigurationData GetByKey (string key) {
@@ -69,6 +65,9 @@ namespace ViaVarejo.Konduto.Domain.Caches {
 
             //--- obter do mongo
             response = GetByCacheInMongo (key);
+            if (response != null && !string.IsNullOrEmpty (response)) {
+                return JsonConvert.DeserializeObject<ConfigurationData> (response);
+            }
 
             //--- se não tem no cache, busca no banco de dados e atualiza o cache
             ConfigurationData configurationData = _configurationDataSqlRepository.GetByKey ("PodeExecutarKonduto");

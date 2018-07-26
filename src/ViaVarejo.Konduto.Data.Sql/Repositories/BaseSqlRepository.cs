@@ -5,12 +5,22 @@ namespace ViaVarejo.Konduto.Data.SqlRepositories {
 
     public class BaseSqlRepository {
 
-        public object GetDbValue(string value){
-            if(string.IsNullOrEmpty(value)){
+        private readonly string _connectionString;
+
+        public BaseSqlRepository (string connectionString) {
+            _connectionString = connectionString;
+        }
+
+        public string GetConnectionString () {
+            return _connectionString;
+        }
+
+        public object GetDbValue (string value) {
+            if (string.IsNullOrEmpty (value)) {
                 return DBNull.Value;
             }
 
-            return value.Trim();
-        }        
+            return value.Trim ();
+        }
     }
 }
