@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  webapi:
+    image: viavarejo-konduto-webapi
+    build:
+      context: .
+    ports:
+      - "20000:80"

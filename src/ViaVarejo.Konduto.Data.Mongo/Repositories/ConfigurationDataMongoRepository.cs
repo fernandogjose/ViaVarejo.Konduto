@@ -34,10 +34,8 @@ namespace ViaVarejo.Konduto.Data.Mongo.Repositories {
 
         public void Add (ConfigurationData configurationDataRequest) {
             IMongoCollection<BsonDocument> collection = _database.GetCollection<BsonDocument> ("DadosConfiguracao");
-
             BsonDocument configurationDataBsonDocument = configurationDataRequest.ToBsonDocument ();
-
-            collection.DeleteOne(Builders<BsonDocument>.Filter.Eq("Nome", configurationDataRequest.Nome));
+            collection.DeleteOne (Builders<BsonDocument>.Filter.Eq ("Nome", configurationDataRequest.Nome));
             collection.InsertOne (configurationDataRequest.ToBsonDocument ());
         }
     }
